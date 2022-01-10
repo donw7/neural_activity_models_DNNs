@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 def plot_coefs(model, n_neurons, n_bins_per_trial):
   """Makes a nice plot of the coefficients. fit_model is the model instance after fitting."""
