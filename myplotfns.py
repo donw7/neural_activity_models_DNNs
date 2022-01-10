@@ -21,4 +21,4 @@ def plot_coefs(model, n_neurons, n_bins_per_trial):
   plt.tight_layout()
   plt.show()
 
-  return coefficients
+  pass
