@@ -4,7 +4,8 @@ Deep neural networks are postulated to breakthrough improved performance via lea
 ## Decoding decision-making behavior from neural activity
 
 This is a comparison of statistical models vs. deep neural networks (DNNs), their performances across different conditions and with various types of data and hyperparameters.
-### Summary excerpted here. see "DNN_decoding.ipynb" for additional details
+### see "DNN_decoding.ipynb"
+- Summary excerpted here. See notebook for additional details
 
 ### Hypotheses:
 1. Decision-making behavior can be predicted reasonably well from information encoded in neural activity, even with small datasets
