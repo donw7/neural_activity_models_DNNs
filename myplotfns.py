@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plot_coefs(model, n_neurons, n_bins_per_trial):
-  """Makes a nice plot of the coefficients. fit_model is the model instance after fitting."""
 
+def plot_coefs(model, n_neurons, n_bins_per_trial):
+  """Makes a nice plot of the coefficients.
+  fit_model is the model instance after fitting."""
 
   # get the coefficients of your fit
   coefficients = model.coef_.reshape(n_neurons, n_bins_per_trial)
@@ -20,5 +21,6 @@ def plot_coefs(model, n_neurons, n_bins_per_trial):
                label="Contribution of bin to decision (coeffs)")
   plt.tight_layout()
   plt.show()
+
 
   pass
