@@ -17,7 +17,7 @@ This is a comparison of statistical models vs. deep neural networks (DNNs), thei
 - DNNS are prone to overfitting and require additional considerations, e.g. crossvalidation or regularization
 - XGBoost appears to be the best performing DNN (67% accuracy vs. 30% expected by chance)
 
-## Decoding decision-making behavior from neural activity
-This is a comparison of statistical models vs. deep neural networks (DNNs), their performances across different conditions and with various types of data and hyperparameters.
+## Testing Transformers on neural activity construed as tokenzed language sequences
+### ongoing work, see "neural-sequence_transformers_v2.ipynb"
 
 
