@@ -7,18 +7,18 @@ This is a comparison of statistical models vs. deep neural networks (DNNs), thei
 ### see "DNN_decoding.ipynb"
 - Summary excerpted here. See notebook for additional details
 
-## Hypotheses:
+### Hypotheses:
 1. Decision-making behavior can be predicted reasonably well from information encoded in neural activity, even with small datasets
 2. DNNs outperform statistical models but are prone to overfitting and require additional considerations, e.g. regularization
 
-## Procedures:
+### Procedures:
 1. Simulate neural data as validation of models to be used later with more complicated real neural data
 2. Apply logistic regression
 3. Apply recurrent neural networks (RNNs), LSTM, and XGBoost
 4. Compare DNNs to logistic regression
 5. Experimentation with optimizing hyperparameters
 
-## Results & Conclusions summary:
+### Results & Conclusions summary:
 - Early evidence that complicated decision-making behavior can be predicted from information encoded in neural activity, and that multi-regional coordination is involved
 - XGBoost appears to be the best performing (67% accuracy vs. 30% expected by chance). Don't want to overinterpret results biologically via differential DNN architectures, but, speculatively, if XGB outperforms it may suggest that time dependencies and hidden states may play a less important role in brain-wide dynamics.
 - Alternatively, this could also be due to simply the nature of dataset with sparse spikes (to address this, can conduct analysis on a different type of data, such as EEG or calcium imaging), or model assumptions regarding this data more appropriate
