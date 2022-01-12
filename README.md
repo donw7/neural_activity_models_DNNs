@@ -29,3 +29,10 @@ This is a comparison of statistical models vs. deep neural networks (DNNs), thei
 ### ongoing work, see "neural-sequence_transformers_v2.ipynb"
 
 
+## Spike deconvolution from calcium imaging data is ongoing, with goal to apply similar analysis as above.
+Representative diagram of calcium imaging signal extraction process:
+
+<p align="center">
+<img src="diagrams/ms_analysis_overview.png">
+</p> 
+from from miniscope.org
