@@ -28,6 +28,16 @@ This is a comparison of statistical models vs. deep neural networks (DNNs), thei
 ## Testing Transformers on neural activity construed as tokenized language sequences
 ### ongoing work, see "neural-sequence_transformers_v2.ipynb"
 
+### summary:
+- motivation:
+  - neuroscience lacks ways of flexibly modeling both global and local modulation of neural activity, lacks accucracy on real-time, and models are computationally inefficient e.g. for BCI applications
+  - ML research on sequence models would benefit from extension of transformer architecture into other domains, testing of its embeddings to capture meaningful features of neural activity, as proof-of-concept for a generalized architecture
+- framework:
+  - neural activity may be construed as a sequence analogous to a text sequence
+  - will first utilize data structure from language sentiment classification analysis to test training implementation. Then, will convert and reformat data structure of neural activity to resemble that of language data. Time bins for neural activity spikes can be analogous to tokenized vocab. Then will train analogously to model behavioral decisions in mice
+- initial results:
+  - suggest that bins of neural activity spikes construed as tokenized sequences analogous to language modeling is amenable to transformer architecture. 47% initial accuracy vs. 33% expected by chance. Interestingly, this may already outperform RNN and LSTM models (around 30%, as in "DNN_decoding.ipynb") despite a fraction of training data utilized
+  - further validation required. 
 
 ## Spike deconvolution from calcium imaging data is ongoing, with goal to apply similar analysis as above.
 Representative diagram of calcium imaging signal extraction process:
